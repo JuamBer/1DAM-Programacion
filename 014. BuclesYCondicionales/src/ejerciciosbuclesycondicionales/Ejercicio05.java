@@ -1,0 +1,22 @@
+package ejerciciosbuclesycondicionales;
+
+import java.util.Scanner;
+
+public class Ejercicio05 {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in, "ISO-8859-1");
+
+        System.out.println("Introduce un número: ");
+        int num1 = sc.nextInt();
+
+        System.out.println("Introduce otro número: ");
+        int num2 = sc.nextInt();
+
+        if (num1 > num2) {
+            System.out.println("Los números ordenados de mayor a menor son: " + num1 + "," + num2);
+        } else {
+            System.out.println("Los números ordenados de mayor a menor son: " + num2 + "," + num1);
+        }
+    }
+}

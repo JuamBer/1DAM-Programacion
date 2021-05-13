@@ -1,0 +1,3 @@
+Contacto{nombre=Juan Sáez García, telefono=665020636}
+Contacto{nombre=Ivan Soriano Zapata, telefono=876845432}
+Contacto{nombre=Francisco Javier Peris, telefono=997745248}
